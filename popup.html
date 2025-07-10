@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ChatGPT → PDF</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      padding: 16px;
+      background: #f9f9f9;
+      width: 320px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #333;
+    }
+
+    .field {
+      margin-bottom: 15px;
+    }
+
+    label {
+      font-weight: bold;
+      display: block;
+      margin-bottom: 6px;
+      color: #444;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      box-sizing: border-box;
+      font-size: 14px;
+    }
+
+    button {
+      width: 100%;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 12px;
+      font-size: 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    footer {
+      font-size: 12px;
+      text-align: center;
+      color: #888;
+      margin-top: 12px;
+    }
+  </style>
+</head>
+<body>
+  <h2>&#128196; Export ChatGPT</h2>
+
+
+  <div class="field">
+    <label for="pdfTitle">PDF Title</label>
+    <input type="text" id="pdfTitle" placeholder="e.g. AI Strategy Notes" />
+  </div>
+
+  <button id="exportPDF">Export to PDF</button>
+
+  <footer>Made by Aman &#9889; XDA</footer>
+
+
+  <script src="popup.js"></script>
+</body>
+</html>

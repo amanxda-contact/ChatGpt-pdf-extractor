@@ -1,0 +1,1 @@
+// Optional: Can be extended to highlight or enhance chat capture
